@@ -1,0 +1,22 @@
+{
+  "name": "LCTool",
+  "version": "0.1.0",
+  "summary": "A short description of LCTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Joff/LCTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Joff": "894592184@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Joff/LCTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "LCTool/Classes/**/*"
+}

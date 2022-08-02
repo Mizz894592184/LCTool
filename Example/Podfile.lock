@@ -1,0 +1,16 @@
+PODS:
+  - LCTool (0.1.0)
+
+DEPENDENCIES:
+  - LCTool (from `../`)
+
+EXTERNAL SOURCES:
+  LCTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LCTool: c7b80b0f2fc45f8de0c0920b1cab8f2b19ec933f
+
+PODFILE CHECKSUM: 6d7961c9965ae432fd92061b6e44cbefb6ba7cdb
+
+COCOAPODS: 1.11.3

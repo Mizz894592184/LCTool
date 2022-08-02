@@ -1,0 +1,6 @@
+framework module Pods_LCTool_Example {
+  umbrella header "Pods-LCTool_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
