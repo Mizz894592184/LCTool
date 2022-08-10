@@ -1,5 +1,7 @@
 PODS:
-  - LCTool (0.1.0)
+  - LCTool (0.1.0):
+    - LCTool/category (= 0.1.0)
+  - LCTool/category (0.1.0)
 
 DEPENDENCIES:
   - LCTool (from `../`)
@@ -9,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LCTool: c7b80b0f2fc45f8de0c0920b1cab8f2b19ec933f
+  LCTool: 2f345d628476f01cfd3bd0ab8d29645ce5137ec5
 
 PODFILE CHECKSUM: 6d7961c9965ae432fd92061b6e44cbefb6ba7cdb
 

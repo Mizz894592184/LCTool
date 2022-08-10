@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "LCTool.h"
+#import "LCWebView.h"
+#import "UIColor+LCColor.h"
+#import "UIView+TransitionColor.h"
 
 FOUNDATION_EXPORT double LCToolVersionNumber;
 FOUNDATION_EXPORT const unsigned char LCToolVersionString[];

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LCTool'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of LCTool.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,12 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'LCTool/Classes/**/*'
+#  s.source_files = 'LCTool/Classes/**'
+  
+
+  s.subspec 'category' do |ss|
+    ss.source_files = 'LCTool/Classes/category/**/*.{h,m}'
+  end
   
   # s.resource_bundles = {
   #   'LCTool' => ['LCTool/Assets/*.png']

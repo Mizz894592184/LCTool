@@ -8,68 +8,82 @@
 
 /* Begin PBXBuildFile section */
 		0EC62FAEAE91A8270158100A80553AD4 /* Pods-LCTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D118AC6F1E1884946A6386366D879 /* Pods-LCTool_Tests-dummy.m */; };
+		21AC1FB3F766630F6C12631F63F6B722 /* UIView+TransitionColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EC927A68AF13A12F18581988FF2C8F3 /* UIView+TransitionColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		258394BE3A0B7CE727851F734F7B8472 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		4D60AB15B9EBC5E440741AAAC6DFB240 /* LCTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC4F4997442C63FC9C4BD4E314B52DA /* LCTool-dummy.m */; };
+		4C656C87AAB49ECD17CA1FE23CA0CB03 /* LCTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B21D70F16BC1BAADB719F5DCE283BDEE /* LCTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F3B009F62C0E62F733A93F79EEE4185 /* Pods-LCTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA0E49FE9E8357858712182D4993922 /* Pods-LCTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		745FA82D2CE6484AFD78F0B37524460A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		96B077C170DE24302ABFAD1F88328A37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		985141A5B1A96A3A6A946D756217E37E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C41901BB27BA2F1910907357E1950873 /* ReplaceMe.m */; };
-		9F28B06B99F617EC65C6AA35F3292972 /* LCTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D54018B2F860D2125656FCBC378CC884 /* LCTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E4071C602F97A41680A0C42EEEA9A83 /* LCTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A63FBAB181BBB2A505F3D5913378C94 /* LCTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B437422E2E98F28CDBE4194C17B08A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9A46CC1960AC4ECED7ABF286417F4771 /* UIColor+LCColor.h in Headers */ = {isa = PBXBuildFile; fileRef = B301380E4F05EEB65CE737BAF8AD8CFF /* UIColor+LCColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A54F60727FE4768ACB6E815A6564126E /* LCTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A8A754C58B6599414D5BD624C63CA /* LCTool.m */; };
+		B0984A1F973B83463F8540DC334CFDBE /* LCWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = EC7023E91CEA38B44BA6E31A28FDCC69 /* LCWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0B88DB78F036E81FF6E5803994507C9 /* UIColor+LCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DC753394819B22D8D3C99FD8AED4E /* UIColor+LCColor.m */; };
+		B19E2EF4898787D4B0AFF0A0E4029E78 /* LCWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 051F58E16CEE2FF26E5519FCDA6E1242 /* LCWebView.m */; };
 		B95AA9BA4272DEFD394F17A1D80CB15E /* Pods-LCTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1ECAD82158D3656BDD632DD1F20B93A /* Pods-LCTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA0A5F43768F489081B75416397D9B02 /* UIView+TransitionColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FD64A9AE2C7F820B17F25CC01ED1F10E /* UIView+TransitionColor.m */; };
 		ED4CB7B4F1CE2408641CC67B7435FC4E /* Pods-LCTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C25E0F9329F4F8A94112B2CD067C3A87 /* Pods-LCTool_Example-dummy.m */; };
+		F6AE05E1F377F104498FB539032EB9CA /* LCTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1806C3C5C65497685377639C720FE49B /* LCTool-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AE4F970BD8547DBAADF481EFD34AE77C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F4FA0A1A83302847BE74866E59A2290F;
-			remoteInfo = "Pods-LCTool_Example";
-		};
-		CFCF0ECE9AF3F222EF7E8302F98600D9 /* PBXContainerItemProxy */ = {
+		875463E215EACE77C360462112555568 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7CFF2F42E5A87B1C92F49647CFD75AED;
 			remoteInfo = LCTool;
 		};
+		ECFD9A232A286986D3228178380D1E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4FA0A1A83302847BE74866E59A2290F;
+			remoteInfo = "Pods-LCTool_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		051F58E16CEE2FF26E5519FCDA6E1242 /* LCWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCWebView.m; path = LCTool/Classes/category/LCWebView.m; sourceTree = "<group>"; };
+		1806C3C5C65497685377639C720FE49B /* LCTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LCTool-dummy.m"; sourceTree = "<group>"; };
+		1A13FBB5A8C1AECBBAD24D692BE4A233 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1A1905AA12E55B1AD0684D42759295A7 /* Pods-LCTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1AC4F4997442C63FC9C4BD4E314B52DA /* LCTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LCTool-dummy.m"; sourceTree = "<group>"; };
+		2C1A8A754C58B6599414D5BD624C63CA /* LCTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCTool.m; path = LCTool/Classes/category/LCTool.m; sourceTree = "<group>"; };
 		3BF82F24440478D3F359486A43D15B06 /* Pods-LCTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		41CB9EC1B855D85193B62179AE8E3971 /* LCTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LCTool-Info.plist"; sourceTree = "<group>"; };
 		45395A1C70F161923E7F34508D4467C8 /* Pods-LCTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A63FBAB181BBB2A505F3D5913378C94 /* LCTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCTool.h; path = LCTool/Classes/category/LCTool.h; sourceTree = "<group>"; };
 		4E25DBBB58FA1CB97CF7800EA8FF4A83 /* LCTool */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LCTool; path = LCTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		511A9E2304335A8387DDAF606ACE5B5A /* LCTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LCTool.modulemap; sourceTree = "<group>"; };
+		4EC927A68AF13A12F18581988FF2C8F3 /* UIView+TransitionColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+TransitionColor.h"; path = "LCTool/Classes/category/UIView+TransitionColor.h"; sourceTree = "<group>"; };
+		546DC753394819B22D8D3C99FD8AED4E /* UIColor+LCColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+LCColor.m"; path = "LCTool/Classes/category/UIColor+LCColor.m"; sourceTree = "<group>"; };
 		5BBFBC3680F0B8CCB1AC69B58EA1A014 /* Pods-LCTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		62F7ACE8F85E48C560B4CA116991353E /* LCTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LCTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		683B738EF7D00D9D6E0BD66CD2259B67 /* Pods-LCTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LCTool_Tests.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		75893433027314DE2201D9D8695A17BB /* LCTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCTool.debug.xcconfig; sourceTree = "<group>"; };
 		7A1F7E1840DBE7DE25190547A9A0238D /* Pods-LCTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCTool_Example-Info.plist"; sourceTree = "<group>"; };
 		7E9221E39332FFB9D8C99225C837371B /* Pods-LCTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		852652A55E7AACFA0AE3352F5B7979B2 /* Pods-LCTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		88199D231AD704C7DFDCDA4C9E1F85A3 /* LCTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCTool.release.xcconfig; sourceTree = "<group>"; };
 		8A1D118AC6F1E1884946A6386366D879 /* Pods-LCTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		905296BEAA24F4ABA03238AEB8A1F9BC /* LCTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCTool.debug.xcconfig; sourceTree = "<group>"; };
 		99E4C6198CE2689D9F27F350D673B930 /* Pods-LCTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCTool_Tests-Info.plist"; sourceTree = "<group>"; };
 		9BE8CCE03983F502945B039EEE4F9AAC /* Pods-LCTool_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LCTool_Example"; path = Pods_LCTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1ECAD82158D3656BDD632DD1F20B93A /* Pods-LCTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCTool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A9D7F63E9A31373DF1C79AC6020FC098 /* LCTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCTool-prefix.pch"; sourceTree = "<group>"; };
+		B21D70F16BC1BAADB719F5DCE283BDEE /* LCTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCTool-umbrella.h"; sourceTree = "<group>"; };
+		B2DE1409112AFBC68ACC514B401FE024 /* LCTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LCTool-Info.plist"; sourceTree = "<group>"; };
+		B301380E4F05EEB65CE737BAF8AD8CFF /* UIColor+LCColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+LCColor.h"; path = "LCTool/Classes/category/UIColor+LCColor.h"; sourceTree = "<group>"; };
 		BCA0E49FE9E8357858712182D4993922 /* Pods-LCTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCTool_Example-umbrella.h"; sourceTree = "<group>"; };
-		C164639D2F2A4DD54C761D16E0EA0025 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		C25E0F9329F4F8A94112B2CD067C3A87 /* Pods-LCTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCTool_Example-dummy.m"; sourceTree = "<group>"; };
-		C41901BB27BA2F1910907357E1950873 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LCTool/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		CC07FD1480348A8C0B2DA834C881EADB /* LCTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LCTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CC7F1C9885E9778BF41D0F539AEC6926 /* LCTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LCTool.modulemap; sourceTree = "<group>"; };
+		CD068E387ED8DA18123AF6C93C7A8068 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D0676D70D79ECA2CE5F66783D1C8938A /* Pods-LCTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D54018B2F860D2125656FCBC378CC884 /* LCTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCTool-umbrella.h"; sourceTree = "<group>"; };
 		DB152F42BF2A23FF69B76A9BD954552D /* Pods-LCTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LCTool_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DE2D86FA4D9666CD4A9D32B45B8C1B92 /* Pods-LCTool_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LCTool_Tests"; path = Pods_LCTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4690DAA519988831E32E0A0E6ACB3EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		E52FBA6600F4E18A141EC8538E2F7085 /* Pods-LCTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LCTool_Example.modulemap"; sourceTree = "<group>"; };
 		E6F80AD0CE764B448EC4F473F7B8F0D0 /* Pods-LCTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E749C57D440C76493AD39B810F2D47EB /* LCTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCTool.release.xcconfig; sourceTree = "<group>"; };
-		F1020E7B246B26F2A91D442E4311E157 /* LCTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCTool-prefix.pch"; sourceTree = "<group>"; };
+		EC7023E91CEA38B44BA6E31A28FDCC69 /* LCWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCWebView.h; path = LCTool/Classes/category/LCWebView.h; sourceTree = "<group>"; };
+		FD64A9AE2C7F820B17F25CC01ED1F10E /* UIView+TransitionColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+TransitionColor.m"; path = "LCTool/Classes/category/UIView+TransitionColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,11 +103,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E527B891F7550EE72F3472D09972ECA0 /* Frameworks */ = {
+		BCDE05648B756C0696380675A41BFF5F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96B077C170DE24302ABFAD1F88328A37 /* Foundation.framework in Frameworks */,
+				8B437422E2E98F28CDBE4194C17B08A2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,17 +117,42 @@
 		04ACA6726BF1F0190B3AA0C7AD1BE85F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1B3F933D2C312E608FB5B15EA8C79D37 /* LCTool */,
+				46147CCC32C34E8263AA891150A389D6 /* LCTool */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		1B3F933D2C312E608FB5B15EA8C79D37 /* LCTool */ = {
+		06E7613FA7105AAA60C2EFD05D67742E /* category */ = {
 			isa = PBXGroup;
 			children = (
-				C41901BB27BA2F1910907357E1950873 /* ReplaceMe.m */,
-				9A2D59E41D17D61199F5AEB0FC11C605 /* Pod */,
-				71B38033C0EA076847143A651A7A4038 /* Support Files */,
+				4A63FBAB181BBB2A505F3D5913378C94 /* LCTool.h */,
+				2C1A8A754C58B6599414D5BD624C63CA /* LCTool.m */,
+				EC7023E91CEA38B44BA6E31A28FDCC69 /* LCWebView.h */,
+				051F58E16CEE2FF26E5519FCDA6E1242 /* LCWebView.m */,
+				B301380E4F05EEB65CE737BAF8AD8CFF /* UIColor+LCColor.h */,
+				546DC753394819B22D8D3C99FD8AED4E /* UIColor+LCColor.m */,
+				4EC927A68AF13A12F18581988FF2C8F3 /* UIView+TransitionColor.h */,
+				FD64A9AE2C7F820B17F25CC01ED1F10E /* UIView+TransitionColor.m */,
+			);
+			name = category;
+			sourceTree = "<group>";
+		};
+		1E8750986CA4956CA03BAC1B9C59CC09 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				62F7ACE8F85E48C560B4CA116991353E /* LCTool.podspec */,
+				CD068E387ED8DA18123AF6C93C7A8068 /* LICENSE */,
+				1A13FBB5A8C1AECBBAD24D692BE4A233 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		46147CCC32C34E8263AA891150A389D6 /* LCTool */ = {
+			isa = PBXGroup;
+			children = (
+				06E7613FA7105AAA60C2EFD05D67742E /* category */,
+				1E8750986CA4956CA03BAC1B9C59CC09 /* Pod */,
+				AE5DC5EA69EFD20E35C4535F8F891962 /* Support Files */,
 			);
 			name = LCTool;
 			path = ../..;
@@ -125,21 +164,6 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		71B38033C0EA076847143A651A7A4038 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				511A9E2304335A8387DDAF606ACE5B5A /* LCTool.modulemap */,
-				1AC4F4997442C63FC9C4BD4E314B52DA /* LCTool-dummy.m */,
-				41CB9EC1B855D85193B62179AE8E3971 /* LCTool-Info.plist */,
-				F1020E7B246B26F2A91D442E4311E157 /* LCTool-prefix.pch */,
-				D54018B2F860D2125656FCBC378CC884 /* LCTool-umbrella.h */,
-				75893433027314DE2201D9D8695A17BB /* LCTool.debug.xcconfig */,
-				E749C57D440C76493AD39B810F2D47EB /* LCTool.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LCTool";
 			sourceTree = "<group>";
 		};
 		81734E6ABAE603735252E44827E5211D /* Pods-LCTool_Example */ = {
@@ -168,14 +192,19 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9A2D59E41D17D61199F5AEB0FC11C605 /* Pod */ = {
+		AE5DC5EA69EFD20E35C4535F8F891962 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CC07FD1480348A8C0B2DA834C881EADB /* LCTool.podspec */,
-				E4690DAA519988831E32E0A0E6ACB3EA /* LICENSE */,
-				C164639D2F2A4DD54C761D16E0EA0025 /* README.md */,
+				CC7F1C9885E9778BF41D0F539AEC6926 /* LCTool.modulemap */,
+				1806C3C5C65497685377639C720FE49B /* LCTool-dummy.m */,
+				B2DE1409112AFBC68ACC514B401FE024 /* LCTool-Info.plist */,
+				A9D7F63E9A31373DF1C79AC6020FC098 /* LCTool-prefix.pch */,
+				B21D70F16BC1BAADB719F5DCE283BDEE /* LCTool-umbrella.h */,
+				905296BEAA24F4ABA03238AEB8A1F9BC /* LCTool.debug.xcconfig */,
+				88199D231AD704C7DFDCDA4C9E1F85A3 /* LCTool.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LCTool";
 			sourceTree = "<group>";
 		};
 		C5B255DA941A35AF9DE6738884B82A76 /* Pods-LCTool_Tests */ = {
@@ -226,11 +255,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		20C81BCEC835B7B96C3A56C9E694FC63 /* Headers */ = {
+		0ED21B9C6246DC5CF283F30B2DDBDBBE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F28B06B99F617EC65C6AA35F3292972 /* LCTool-umbrella.h in Headers */,
+				7E4071C602F97A41680A0C42EEEA9A83 /* LCTool.h in Headers */,
+				4C656C87AAB49ECD17CA1FE23CA0CB03 /* LCTool-umbrella.h in Headers */,
+				B0984A1F973B83463F8540DC334CFDBE /* LCWebView.h in Headers */,
+				9A46CC1960AC4ECED7ABF286417F4771 /* UIColor+LCColor.h in Headers */,
+				21AC1FB3F766630F6C12631F63F6B722 /* UIView+TransitionColor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +298,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				83017346451EBB3FEBEB79F62847B8A3 /* PBXTargetDependency */,
+				C1338930D144B0F505BB9D2A8F4E37EE /* PBXTargetDependency */,
 			);
 			name = "Pods-LCTool_Tests";
 			productName = Pods_LCTool_Tests;
@@ -274,12 +307,12 @@
 		};
 		7CFF2F42E5A87B1C92F49647CFD75AED /* LCTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3131855EAB72F4032EB8B281EF23AC56 /* Build configuration list for PBXNativeTarget "LCTool" */;
+			buildConfigurationList = 0A13C7282BD22569DC902AAFDB0A1338 /* Build configuration list for PBXNativeTarget "LCTool" */;
 			buildPhases = (
-				20C81BCEC835B7B96C3A56C9E694FC63 /* Headers */,
-				7DB794DF0393B80E7423246E5E6E309E /* Sources */,
-				E527B891F7550EE72F3472D09972ECA0 /* Frameworks */,
-				A4BC62B68170A0700ABE69AA84C8367B /* Resources */,
+				0ED21B9C6246DC5CF283F30B2DDBDBBE /* Headers */,
+				79A513E20EBABC1A3808E2A0D0A1C857 /* Sources */,
+				BCDE05648B756C0696380675A41BFF5F /* Frameworks */,
+				858C03E37363348DBB399759D3B37581 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -302,7 +335,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D9DBE79974DEBB79FCA66C41A6666203 /* PBXTargetDependency */,
+				EF0350202CD38B1F8160AFED9B3FBB35 /* PBXTargetDependency */,
 			);
 			name = "Pods-LCTool_Example";
 			productName = Pods_LCTool_Example;
@@ -353,7 +386,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4BC62B68170A0700ABE69AA84C8367B /* Resources */ = {
+		858C03E37363348DBB399759D3B37581 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -379,29 +412,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DB794DF0393B80E7423246E5E6E309E /* Sources */ = {
+		79A513E20EBABC1A3808E2A0D0A1C857 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D60AB15B9EBC5E440741AAAC6DFB240 /* LCTool-dummy.m in Sources */,
-				985141A5B1A96A3A6A946D756217E37E /* ReplaceMe.m in Sources */,
+				A54F60727FE4768ACB6E815A6564126E /* LCTool.m in Sources */,
+				F6AE05E1F377F104498FB539032EB9CA /* LCTool-dummy.m in Sources */,
+				B19E2EF4898787D4B0AFF0A0E4029E78 /* LCWebView.m in Sources */,
+				B0B88DB78F036E81FF6E5803994507C9 /* UIColor+LCColor.m in Sources */,
+				EA0A5F43768F489081B75416397D9B02 /* UIView+TransitionColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		83017346451EBB3FEBEB79F62847B8A3 /* PBXTargetDependency */ = {
+		C1338930D144B0F505BB9D2A8F4E37EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LCTool_Example";
 			target = F4FA0A1A83302847BE74866E59A2290F /* Pods-LCTool_Example */;
-			targetProxy = AE4F970BD8547DBAADF481EFD34AE77C /* PBXContainerItemProxy */;
+			targetProxy = ECFD9A232A286986D3228178380D1E1B /* PBXContainerItemProxy */;
 		};
-		D9DBE79974DEBB79FCA66C41A6666203 /* PBXTargetDependency */ = {
+		EF0350202CD38B1F8160AFED9B3FBB35 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LCTool;
 			target = 7CFF2F42E5A87B1C92F49647CFD75AED /* LCTool */;
-			targetProxy = CFCF0ECE9AF3F222EF7E8302F98600D9 /* PBXContainerItemProxy */;
+			targetProxy = 875463E215EACE77C360462112555568 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -568,40 +604,9 @@
 			};
 			name = Debug;
 		};
-		843D1A378C6C6C5CD041707120302C62 /* Debug */ = {
+		B4622B74C7A2D3BBD0464F0EAD4D2218 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75893433027314DE2201D9D8695A17BB /* LCTool.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LCTool/LCTool-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LCTool/LCTool-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LCTool/LCTool.modulemap";
-				PRODUCT_MODULE_NAME = LCTool;
-				PRODUCT_NAME = LCTool;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B8A6C2D99E9781EE9DDF138621CE28DE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E749C57D440C76493AD39B810F2D47EB /* LCTool.release.xcconfig */;
+			baseConfigurationReference = 88199D231AD704C7DFDCDA4C9E1F85A3 /* LCTool.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -731,23 +736,54 @@
 			};
 			name = Release;
 		};
+		E1CE4DD8AB43AE610E08AEB589307187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 905296BEAA24F4ABA03238AEB8A1F9BC /* LCTool.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LCTool/LCTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LCTool/LCTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LCTool/LCTool.modulemap";
+				PRODUCT_MODULE_NAME = LCTool;
+				PRODUCT_NAME = LCTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0A13C7282BD22569DC902AAFDB0A1338 /* Build configuration list for PBXNativeTarget "LCTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CE4DD8AB43AE610E08AEB589307187 /* Debug */,
+				B4622B74C7A2D3BBD0464F0EAD4D2218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2729E4E59D3979DEF405813C18DDEB72 /* Build configuration list for PBXNativeTarget "Pods-LCTool_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81E463BE7F1643898FC0E1A97855DD79 /* Debug */,
 				DABEFC60DB5762957F2F9014B95F9F35 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3131855EAB72F4032EB8B281EF23AC56 /* Build configuration list for PBXNativeTarget "LCTool" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				843D1A378C6C6C5CD041707120302C62 /* Debug */,
-				B8A6C2D99E9781EE9DDF138621CE28DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
